@@ -1,9 +1,3 @@
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-import os
-```
-
 ### Description of the project
 
 The dataset I used is from [coco dataset](http://images.cocodataset.org/zips/train2014.zip) which is around 13 GB. I did not use the whole images but only the first ~20000 images.
@@ -72,6 +66,6 @@ However it could identify objects and colorize them differently.
     1. Maybe try this again with better GPU?
 
 ## TODO
-1. Find a better dataset for training
+1. Some images in this dataset has black&gray colors. Find another dataset whose all images are in RGB.
 2. Retrain the model with bigger batch (need to purchase new GPU)
 3. ?
